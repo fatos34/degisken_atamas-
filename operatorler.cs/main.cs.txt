@@ -1,0 +1,16 @@
+using System;
+string ad, soyad;
+int vize,final;
+double ort;
+Console.WriteLine("ad gir: ");
+ad=Convert.ToString(Console.ReadLine());
+Console.WriteLine("soyad gir: ");
+soyad=Convert.ToString(Console.ReadLine());
+Console.WriteLine("vize gir: ");
+vize=Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("final gir: ");
+final=Convert.ToInt32(Console.ReadLine());
+ort=vize*0.3+final*0.4;
+Console.WriteLine("ad:{0},soyad:{1}",ad,soyad);
+Console.Write("vize:{0}\nfinal:{1}\nortalama:{2}",vize,final,ort);
+Console.ReadKey();
